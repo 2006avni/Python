@@ -1,0 +1,12 @@
+print("How many lines you want to write")
+n=int(input())
+outfile=open('anvy.txt','wt')
+for i in range(n):
+    print("enter line")
+    line=input()
+    outfile.write(line +"\n")
+outfile.close()
+print("The contents of file is :")
+infile=open('anvy.txt','rt')
+print(infile.read())
+infile.close()
