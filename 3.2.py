@@ -1,9 +1,0 @@
-bits=int(input("Enter the Bits:"))
-bytes=bits/8
-kb=bytes/1024
-mb=kb/1024
-gb=mb/1024
-tb=gb/1024
-print("Megabytes=",mb)
-print("Gigabytes=",gb)
-print("Terabytes=",tb)
