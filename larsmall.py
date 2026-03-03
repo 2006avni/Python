@@ -1,6 +1,0 @@
-num= input("Enter a numbers: ")
-num = list(map(int, num.split()))
-lar = max(num)
-small = min(num)
-print("Largest number:", lar)
-print("Smallest number:", small)
